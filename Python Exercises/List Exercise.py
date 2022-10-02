@@ -2,10 +2,11 @@
 
 ## Let's create List 0
 List0=["Michael Jackson", 10.1, 1982]
-## double-check to make sure it exists, lol
+## double-check to make sure it exists
 print (List0)
 ## We'll use the .append () function to add Tuple 0 to the end of List 0;(then we'll insert another List as List 1)   
-    ## First define the Tuple as Tuple 0. We want it to have a string and an integer. ***REWMINDER*** -> Tuples are immutable and use parentheses instead of square brackets
+    ## First define the Tuple as Tuple 0. We want it to have a string and an integer. 
+    ## ***REMINDER*** -> Tuples are immutable and use parentheses instead of square brackets
 Tuple0=('A',1)
 List0.append(Tuple0)
 ## Now let's check to make sure it updated List 0
@@ -17,5 +18,5 @@ List1=[1, 2]
 List0.insert(3,List1)
 print (List0)
 
-# Viola! It fucking works!
+# Viola! It works!
 
