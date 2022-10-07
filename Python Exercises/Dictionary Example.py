@@ -5,19 +5,8 @@
         ## Get into the habit of creating dictionary keys with double quotes "" instead of apostrophes ''
 
 
-## CONCEPT:    The key is a singular piece of info, and the value(s) can be 
-            #  multiple pieces of info in a list that corresponds to its key. EXAMPLE: in 
-            #  a flat file (or tabular relational database) you might have rows of 
-            #  Celebrities named Jennifer and each column with a category/attribute that
-            #  corresponds to that Jennifer. So the rows would be Jennifer Hudson,
-            #  Jennifer Lewis, Jennifer Lopez, Jennifer Love Hewitt, etc. Then there'd be
-            #  a column for race and another column for birth year. So if Jennifer Hudson
-            #  is Black and born in 1970, and Jennifer Lewis is Black and born in 1940,
-            #  and Jennifer Lopez is White Latina and born in 1982, and Jennifer Love
-            #  Hewitt is white and both in 1985, then the Python Dictionary for out Jenny
-            #  Table would look like the following: DICT_Jenny={"Jennifer Hudson":
-            #  ['Black',1970], "Jennifer Lewis":['Black',1940], "Jennifer Lopez":
-            #  ['White Latina',1982], "Jennifer Love Hewitt":['White',1985]}
+## CONCEPT:    The key is a singular piece of info, and the value(s) can be multiple pieces of info in a list that corresponds to its key. EXAMPLE: in a flat file (or tabular relational database) you might have rows of Celebrities named Jennifer and each column with a category/attribute that corresponds to that Jennifer. So the rows would be Jennifer Hudson, Jennifer Lewis, Jennifer Lopez, Jennifer Love Hewitt, etc. Then there'd be a column for race and another column for birth year. So if Jennifer Hudson is Black and born in 1970, and Jennifer Lewis is Black and born in 1940, and Jennifer Lopez is White Latina and born in 1982, and Jennifer Love Hewitt is white and both in 1985, then the Python Dictionary for out Jenny Table would look like the following: DICT_Jenny={"Jennifer Hudson": ['Black',1970], "Jennifer Lewis":['Black',1940], "Jennifer Lopez": ['White Latina',1982], "Jennifer Love Hewitt":['White',1985]}
+
 
 ## Creating our own dictionary
 DICT_Jenny={"Jennifer Hudson":['Black',1970], "Jennifer Lewis":['Black',1940], "Jennifer Lopez":['White Latina',1982], "Jennifer Love Hewitt":['White',1985]}
