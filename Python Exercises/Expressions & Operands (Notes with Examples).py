@@ -1,5 +1,5 @@
 # Conditions & Branching (Python Notes)
-# Expressions & Operands (Python Notes)
+
 
 # set i equal to a number
 i=2
@@ -76,4 +76,4 @@ if(album_year>1979) and (album_year<1990: #meaning AFTER 1979 *AND ALSO* BEFORE 
     print("It's an '80s Classic! You don't know nothin' about that, young blood! This is ~real~ Grown Folks Music")
 else:
     print ("It's not an '80s era banger.")
-
+    
